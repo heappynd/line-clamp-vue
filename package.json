@@ -1,0 +1,49 @@
+{
+  "name": "line-clamp-vue",
+  "version": "0.1.0",
+  "description": "Vue 实现多行文本省略功能",
+  "author": "heappynd <heappynd@163.com>",
+  "license": "MIT",
+  "main": "dist/line-clamp-vue.umd.cjs",
+  "module": "dist/line-clamp-vue.js",
+  "exports": {
+    ".": {
+      "import": "./dist/line-clamp-vue.js",
+      "require": "./dist/line-clamp-vue.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "line-clamp"
+  ],
+  "homepage": "https://github.com/heappynd/line-clamp-vue#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heappynd/line-clamp-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heappynd/line-clamp-vue/issues"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
